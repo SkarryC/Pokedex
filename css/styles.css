@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #068ce0;
+  --color: #e05a06;
+  --secondary-color: #06cb1d;
+}
+
+body{
+  background-color: var(--background-color);
+  font-size:  20px;
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  color: var(--color);
+  text-shadow: 2px 2px 4px #000000;
+}
