@@ -5,14 +5,8 @@ let pokemonList = [
 ];
 
 
+pokemonList.forEach(function(pokemonList) {
+  document.write(pokemonList.name  + " is " + pokemonList.height + " ft. and her type is " + pokemonList.type + ".<br>");
+});
 
-for (let i = 0;
- i < pokemonList.length; i++) 
 
-if (pokemonList[i].height > 4.5) {
-    document.write(pokemonList[i].name + " is " + pokemonList[i].height + " ft. Wow, that's big! Her type is " + pokemonList[i].type + ".<br>")
-  }
-
-else if (pokemonList[i].height < 4) {
-    document.write(pokemonList[i].name + " is " + pokemonList[i].height + " ft. and her type is " + pokemonList[i].type + ".<br>")
-  }
