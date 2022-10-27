@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
 }
+    /* background color:blue, --color: orange, --secondary-color: green */
 
 :root {
-  --background-color: #068ce0;
+  --background-color: #068ce0;  
   --color: #e05a06;
   --secondary-color: #06cb1d;
 }
@@ -18,4 +19,29 @@ h1{
   text-align: center;
   color: var(--color);
   text-shadow: 2px 2px 4px #000000;
+}
+
+.button-class {
+  border: none;
+  display: inline-block;
+  /*font-family: inherit;*/
+  font-weight: bold;
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  color: var(--color);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  transition: 0.2s opacity;
+}
+
+.button-class:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ul{
+  list-style-type: none;
 }
