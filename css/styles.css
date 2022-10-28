@@ -1,21 +1,20 @@
 * {
   box-sizing: border-box;
 }
-    /* background color:blue, --color: orange, --secondary-color: green */
 
 :root {
-  --background-color: #068ce0;  
+  --background-color: #068ce0;
   --color: #e05a06;
   --secondary-color: #06cb1d;
 }
 
-body{
+body {
   background-color: var(--background-color);
-  font-size:  20px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-h1{
+h1 {
   text-align: center;
   color: var(--color);
   text-shadow: 2px 2px 4px #000000;
@@ -32,16 +31,17 @@ h1{
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: 0.2s opacity;
 }
 
 .button-class:hover {
   background-color: var(--secondary-color);
   color: white;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-ul{
+ul {
   list-style-type: none;
 }
